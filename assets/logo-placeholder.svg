@@ -1,0 +1,42 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 220 48" fill="none">
+  <defs>
+    <linearGradient id="logoGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" style="stop-color:#F59E0B"/>
+      <stop offset="50%" style="stop-color:#F97316"/>
+      <stop offset="100%" style="stop-color:#EF4444"/>
+    </linearGradient>
+    <linearGradient id="iconGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" style="stop-color:#F59E0B"/>
+      <stop offset="100%" style="stop-color:#F97316"/>
+    </linearGradient>
+    <linearGradient id="checkGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" style="stop-color:#FBBF24"/>
+      <stop offset="100%" style="stop-color:#F59E0B"/>
+    </linearGradient>
+  </defs>
+
+  <!-- Calendar Icon -->
+  <g transform="translate(2, 3)">
+    <!-- Calendar body with rounded corners -->
+    <rect x="1" y="8" width="38" height="32" rx="5" ry="5"
+          stroke="url(#iconGrad)" stroke-width="2.4" fill="none"/>
+
+    <!-- Calendar header bar -->
+    <rect x="1" y="8" width="38" height="11" rx="5" ry="5" fill="url(#iconGrad)" opacity="0.2"/>
+    <line x1="1" y1="19" x2="39" y2="19" stroke="url(#iconGrad)" stroke-width="0.8" opacity="0.5"/>
+
+    <!-- Calendar ring left -->
+    <rect x="10" y="4" width="3" height="8" rx="1.5" fill="url(#iconGrad)"/>
+    <!-- Calendar ring right -->
+    <rect x="27" y="4" width="3" height="8" rx="1.5" fill="url(#iconGrad)"/>
+
+    <!-- Checkmark inside calendar -->
+    <polyline points="11,29 17,35 30,23"
+              stroke="url(#checkGrad)" stroke-width="3" stroke-linecap="round" stroke-linejoin="round" fill="none"/>
+  </g>
+
+  <!-- Wordmark -->
+  <text x="52" y="35" font-family="Inter, system-ui, -apple-system, sans-serif"
+        font-size="30" font-weight="800" fill="url(#logoGrad)"
+        letter-spacing="4">DYREES</text>
+</svg>
