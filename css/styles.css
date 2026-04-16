@@ -829,6 +829,7 @@ body::before {
     transform: translateX(100%);
     transition: transform 0.4s var(--ease-out);
     gap: 1.5rem;
+    z-index: 1000;
   }
   .nav__links.open {
     transform: translateX(0);
@@ -848,10 +849,6 @@ body::before {
   .hero {
     min-height: auto;
     padding: 8rem 1.25rem 4rem;
-  }
-  .theme-picker {
-    bottom: 1rem;
-    right: 1rem;
   }
 }
 
